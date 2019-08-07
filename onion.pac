@@ -9,7 +9,7 @@ function FindProxyForURL(url, host)
 	{
 		return "PROXY 127.0.0.1:4444";
 	}
-	if (shExpMatch(host,"*.*.*"))
+	if (shExpMatch(host,"*"))
 	{
 		return "PROXY 106.14.214.163:21325";
 	}
